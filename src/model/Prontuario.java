@@ -32,6 +32,11 @@ public class Prontuario {
         this.diagnostico = d;
     }
 
+    public void registrarObservacoes(String o) {
+        this.observacoes = o;
+    }
+
+
     public void exibirProntuario() {
         System.out.println("\n=== PRONTUÁRIO ===");
         System.out.println("ID: " + idProntuario);

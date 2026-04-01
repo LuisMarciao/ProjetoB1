@@ -7,5 +7,7 @@ public class NoDuplo {
 
     public NoDuplo(Object valor) {
         this.valor = valor;
+        this.anterior = null;
+        this.proximo = null;
     }
 }

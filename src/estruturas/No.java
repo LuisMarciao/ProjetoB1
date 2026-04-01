@@ -6,5 +6,8 @@ public class No {
 
     public No(Object valor) {
         this.valor = valor;
+        this.proximo = null;
+        this.proximo = null;
+        
     }
 }

@@ -69,6 +69,9 @@ public class UnidadeAtendimento {
         System.out.print("Diagnóstico: ");
         pr.registrarDiagnostico(sc.nextLine());
 
+        System.out.print("Observações: ");
+        pr.registrarObservacoes(sc.nextLine());
+
         prontuarios.adicionar(pr);
 
         System.out.println("Atendimento finalizado.");
